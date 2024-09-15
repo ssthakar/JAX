@@ -1,0 +1,34 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath}
+\title{A simple optimization problem using OPTAX}
+\date{\today}
+\author{S S Thakar}
+\begin{document}
+\maketitle
+\section{Problem Statement}
+Given a force $F$:
+\begin{equation}
+  \begin{split}
+    F = K(x)x + \frac{\partial K}{\partial x}x, \\
+    K(x) = Ax^2 + Bx +C
+    \label{eq:problem_statement}
+    \end{split}
+\end{equation}
+subject to the following constraints:
+\begin{equation}
+  F=F_0=10, \ \text{when} \ x=x_0=0.2
+    \label{eq:constraints}
+\end{equation}
+Find the values of $A,B, \ \text{and} \ C$ such that Eq.\ref{eq:problem_statement} holds true for Eq.\ref{eq:constraints}.
+\section{Solution}
+We begin by converting the given problem into an optimization problem. Let us define the parameters of interest as $\boldsymbol{\theta}=\{A,B,C\}$. 
+Further let us define the loss function as a mean squared error based on the constraints given by Eq.\ref{eq:constraints}:
+\begin{equation}
+  L(\boldsymbol{\theta}) = \left( F_0 - \left(F(\boldsymbol{\theta,x_0})x_0 + \left.\frac{\partial F(\boldsymbol{\theta},x)}{\partial x}\right|_{x=x_0}\right)\right)^2.
+    \label{eq:loss_function}
+\end{equation}
+Now our problem has been converted to an optimization problem. From an intial guess for $\boldsymbol{\theta}$ we can use gradient descent and/or its variations to minimize $L(\boldsymbol{\theta})$.
+\subsection{Gradient descent}
+\subsection{Code}
+\subsection{Results}
+\end{document}
