@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726035499.68133 "optax.tex" "optax.pdf" "optax" 1726035499.83295 0
+["pdflatex"] 1726533444.00577 "optax.tex" "optax.pdf" "optax" 1726533444.15663 0
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1716849630 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm" 1716849630 1120 200be8b775682cdf80acad4be5ef57e4 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1716849630 1004 54797486969f23fa377b128694d548df ""
@@ -46,10 +46,10 @@
   "/usr/share/texmf-dist/tex/latex/base/size11.clo" 1716849630 8464 59874a3b0776c73e2a138b025d8473dd ""
   "/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1716849630 30006 3d512c0edd558928ddea1690180ef77e ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1716849630 41588 b43d3e860a4f94167ee1e725ff526a72 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1726033323.20434 27758 38728abbce47239bb9c148cdc8c9e373 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1726033407 7112993 16293ff2ac71a62b496d3a970e00b0d3 ""
-  "optax.aux" 1726035499.79254 667 64a005d817e1f04476223c71f367cf23 "pdflatex"
-  "optax.tex" 1726035499.23654 1443 c43da7ede189222c5429e69cff8cb46d ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1726489998.52702 27758 38728abbce47239bb9c148cdc8c9e373 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1726489987 7112994 03e99372608479b7dc9fe7991a200ab2 ""
+  "optax.aux" 1726533444.1136 487 a53496d727b1b7d98e1b2d44cfe40aea "pdflatex"
+  "optax.tex" 1726533441.98028 1482 56fe66aa40b6bfa9d2b97880e85a7d58 ""
   (generated)
   "optax.aux"
   "optax.log"

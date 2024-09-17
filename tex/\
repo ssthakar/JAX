@@ -35,4 +35,10 @@ Now our problem has been converted to an optimization problem. From an intial gu
     \frac{\partial x}{\partial y}
     \label{eq:}
 \end{equation}
+
+\begin{equation}
+    \frac{\partial d}{\partial }
+    \label{eq:}
+\end{equation}
+
 \end{document}
